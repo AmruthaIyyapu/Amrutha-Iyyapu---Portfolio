@@ -1,3 +1,67 @@
+:root {
+  --primary-color: #01352c;
+  --text-color: #bad8b6;
+  --primary-font-family: "Cinzel", serif;
+  --secondary-font-family: "Lobster", cursive;
+  --text-font-family: "Kalam", cursive;
+}
+
 h1 {
-  background: pink;
+  font-family: var(--primary-font-family);
+  font-size: 70px;
+  color: var(--primary-color);
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: var(--secondary-font-family);
+  color: var(--primary-color);
+  opacity: 0.8;
+}
+
+h3 {
+  font-family: var(--text-font-family);
+  opacity: 0.7;
+  font-size: 35px;
+}
+
+.container {
+  max-width: 100%;
+  margin-top: 100px;
+}
+
+.profile-intro {
+  background: var(--text-color);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.profile-pic {
+  max-width: 300px;
+  margin-top: 50px;
+
+  border: 8px solid var(--primary-color);
+  transition: all 0.5s ease-in-out;
+}
+
+.profile-pic:hover {
+  transform: scale(1.7);
+}
+
+.profile-desc {
+  margin-top: 40px;
+}
+
+.btn-light {
+  background: #e1eacd;
+  margin-top: 25px;
+  font-size: 30px;
+  border: none;
+  padding: 10px 30px;
+  color: var(--primary-color);
+}
+
+.btn-light:hover {
+  background: var(--primary-color);
+  color: var(--text-color);
 }
