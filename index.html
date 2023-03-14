@@ -42,8 +42,11 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <div class="container profile-intro">
-      <div class="row">
+    <!-- created a container ,
+       so that we could apply the bootstrap functionalities -->
+    <div class="container">
+      <!-- first row to include developer details and picture -->
+      <div class="row profile-intro">
         <div class="col-sm-8 profile-desc text-center">
           <h2>🙋🏻‍♀️ Hi, I am</h2>
           <h1>AMRUTHA IYYAPU</h1>
@@ -58,6 +61,127 @@
             alt="profile picture"
             class="profile-pic rounded-circle"
           />
+        </div>
+      </div>
+      <!-- created another grid to include my projects -->
+
+      <div class="row projects">
+        <div class="row">
+          <div class="fw-bold project-heading-section text-center">My Work</div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img
+              src="images/weather-app.png"
+              alt="Weather-app Image"
+              width="600px"
+              class="project-images m-4"
+            />
+          </div>
+          <div class="col project-info text-center">
+            <h4>Weather App</h4>
+            <p class="lh-2 text-wrap">
+              Created a weather application with
+              HTML,CSS,JavaScript,API,Bootstrap. We can search the weather for
+              any location in the world. This app provides the forecast weather
+              for the next six days.
+              <br />
+              We can also find the temperature of the current location by
+              clicking on the current temp button. Used javascript functions to
+              change the temperature from celsius to faranheit and vice versa.
+            </p>
+            <div>
+              <a
+                class="btn btn-light"
+                href="https://weather-app-amruthaiyyapu.netlify.app"
+                target="_blank"
+                ><i class="fa-regular fa-share-from-square"></i>Launch
+                Project</a
+              >
+            </div>
+            <div>
+              <a
+                class="btn btn-light"
+                href="https://github.com/AmruthaIyyapu/weather-app"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i>Source Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col project-info text-center">
+            <h4>World Clock</h4>
+            <p class="lh-2 text-wrap">
+              Created a World clock app with HTML,CSS,JavaScript,API,Bootstrap.
+              We can search the current time for any location in the world based
+              on their timezones.
+              <br />
+              Utilised javascript functionalities to run the clock for every
+              second of the day.
+            </p>
+            <div>
+              <a
+                class="btn btn-light"
+                href="https://worldclock-amrutha.netlify.app"
+                target="_blank"
+                ><i class="fa-regular fa-share-from-square"></i>Launch
+                Project</a
+              >
+            </div>
+            <div>
+              <a
+                class="btn btn-light"
+                href="https://github.com/AmruthaIyyapu/world-clock"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i>Source Code</a
+              >
+            </div>
+          </div>
+          <div class="col">
+            <img
+              src="images/worldclock.png"
+              alt="Worldclock Image"
+              width="600px"
+              class="project-images m-4"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img
+              src="images/weather-app.png"
+              alt="Weather-app Image"
+              width="600px"
+              class="project-images m-4"
+            />
+          </div>
+          <div class="col project-info text-center">
+            <h4>Weather App</h4>
+            <p class="lh-2 text-wrap">
+              Created a weather application with
+              HTML,CSS,JavaScript,API,Bootstrap. We can search the weather for
+              any location in the world. This app provides the forecast weather
+              for the next six days.
+              <br />
+              We can also find the temperature of the current location by
+              clicking on the current temp button. Used javascript functions to
+              change the temperature from celsius to faranheit and vice versa.
+            </p>
+            <div>
+              <a class="btn btn-light" href="#"
+                ><i class="fa-regular fa-share-from-square"></i>Launch
+                Project</a
+              >
+            </div>
+            <div>
+              <a class="btn btn-light" href="#"
+                ><i class="fa-solid fa-code"></i>Source Code</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>
