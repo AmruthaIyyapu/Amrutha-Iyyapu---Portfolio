@@ -156,6 +156,20 @@ a:hover {
   opacity: 1;
 }
 
+.nav-link:hover,
+.nav-link:active,
+.navbar-brand {
+  color: var(--primary-color) !important;
+}
+
+.navbar {
+  background: linear-gradient(
+    108.7deg,
+    rgb(224, 235, 213) 8.1%,
+    rgb(37, 148, 141) 91.2%
+  );
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
   .container {
     width: 100%;
