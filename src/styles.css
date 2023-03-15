@@ -111,6 +111,30 @@ p {
   width: 400px;
 }
 
+.about-section-content {
+  background: var(--primary-color);
+}
+
+.about-section-content h1,
+h2,
+h3,
+p {
+  color: var(--text-color);
+}
+
+.about-section-content h1 {
+  font-size: 60px;
+}
+.about-section-content h3 {
+  font-size: 30px;
+}
+
+.about-section-content p {
+  margin-top: 25px;
+  font-weight: light;
+  line-height: 1.7;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
   .container {
     width: 100%;
@@ -175,5 +199,25 @@ p {
 @media (min-width: 991px) and (max-width: 1160px) {
   .project-image {
     margin-left: 150px;
+  }
+
+  .about-section-content {
+    max-width: 100%;
+  }
+
+  .about-section-content .profile-photo {
+    width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-section-content h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1160px) and (max-width: 1400px) {
+  .about-section-content .profile-photo {
+    width: 440px;
   }
 }
