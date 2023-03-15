@@ -113,6 +113,7 @@ p {
 
 .otherpage-content {
   background: var(--primary-color);
+  max-width: 90%;
 }
 
 .otherpage-content h2 {
