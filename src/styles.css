@@ -145,6 +145,16 @@ p {
   box-shadow: 20px 20px 20px var(--primary-color);
 }
 
+a {
+  color: var(--primary-color);
+  opacity: 0.8;
+}
+
+a:hover {
+  font-size: 24px;
+  opacity: 1;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
   .container {
     width: 100%;
