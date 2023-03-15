@@ -35,11 +35,6 @@ h4 {
   font-size: 56px;
 }
 
-.container {
-  max-width: 100%;
-  /* margin-top: 100px; */
-}
-
 .profile-intro {
   background: var(--text-color);
   padding-top: 150px;
@@ -137,6 +132,10 @@ p {
 }
 
 @media (max-width: 500px) {
+  body {
+    text-align: center;
+  }
+
   h1,
   h4 {
     font-size: 50px;
@@ -146,12 +145,21 @@ p {
   }
   .profile-intro {
     text-align: center;
-    margin-bottom: 50px;
+    margin: 20px;
   }
-  .container {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
+
+  .projects {
+    width: 490px;
+    padding: 10px;
+  }
+
+  .project-info .btn-light {
+    width: 250px;
+    font-size: 15px;
+  }
+
+  .project-info p {
+    font-size: 20px;
   }
 }
 
