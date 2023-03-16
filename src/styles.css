@@ -178,9 +178,7 @@ footer .end-line h3 {
   font-size: 20px;
   transition: all 150ms ease-in-out;
 }
-footer .end-line a:hover {
-  text-decoration: underline !important;
-}
+
 @media (max-width: 768px) {
   .work-image {
     max-width: 100%;
@@ -323,6 +321,13 @@ a:hover {
 
   .project-heading-section {
     font-size: 50px;
+  }
+
+  footer {
+    margin: 50px;
+  }
+  footer .end-line h3 {
+    font-size: 20px;
   }
 }
 
