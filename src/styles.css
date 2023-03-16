@@ -37,7 +37,7 @@ h4 {
 
 .profile-intro {
   background: var(--text-color);
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 30px;
   margin-bottom: 80px;
 }
@@ -215,6 +215,7 @@ a:hover {
   .profile-intro {
     text-align: center;
     margin: 10px;
+    padding-top: 50px;
   }
 
   .profile-pic {
@@ -257,7 +258,7 @@ a:hover {
   }
   .projects {
     max-width: 100%;
-    margin: 5px;
+    margin: 0;
   }
 
   .project-info {
@@ -265,11 +266,22 @@ a:hover {
     margin: 5px;
   }
   .project-info p {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .project-info h4 {
     font-size: 35px;
+  }
+
+  .work-intro {
+    font-size: 12px;
+    margin: 20px;
+    padding: 10px;
+    line-height: 10px;
+  }
+
+  .project-heading-section {
+    font-size: 50px;
   }
 }
 
