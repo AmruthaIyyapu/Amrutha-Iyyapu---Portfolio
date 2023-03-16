@@ -172,6 +172,15 @@ footer .social-links a:hover {
   color: var(--primary-color);
   background: var(--text-color);
 }
+
+footer .end-line h3 {
+  color: var(--primary-color);
+  font-size: 20px;
+  transition: all 150ms ease-in-out;
+}
+footer .end-line a:hover {
+  text-decoration: underline !important;
+}
 @media (max-width: 768px) {
   .work-image {
     max-width: 100%;
