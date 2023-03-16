@@ -140,6 +140,12 @@ p {
   width: 400px;
 }
 
+@media (max-width: 768px) {
+  .work-image {
+    max-width: 100%;
+  }
+}
+
 .work-image:hover {
   opacity: 0.5;
   border: 10px solid var(--primary-color);
@@ -248,6 +254,22 @@ a:hover {
 @media (max-width: 400px) {
   .otherpage-content h1 {
     font-size: 40px;
+  }
+  .projects {
+    max-width: 100%;
+    margin: 5px;
+  }
+
+  .project-info {
+    line-height: 1 !important;
+    margin: 5px;
+  }
+  .project-info p {
+    font-size: 12px;
+  }
+
+  .project-info h4 {
+    font-size: 35px;
   }
 }
 
