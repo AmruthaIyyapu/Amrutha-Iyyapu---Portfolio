@@ -140,6 +140,16 @@ p {
   width: 400px;
 }
 
+.navbar-brand {
+  font-family: "Allura", cursive;
+  font-size: 35px;
+}
+
+.navbar-brand:hover {
+  font-family: "Allura", cursive;
+  font-size: 35px;
+}
+
 @media (max-width: 768px) {
   .work-image {
     max-width: 100%;
